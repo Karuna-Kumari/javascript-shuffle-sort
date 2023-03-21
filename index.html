@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maersk - Card suffling & sorting</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/operation.js"></script>
+    <script>
+        let array = getArray();
+        window.addEventListener('load', function(){
+            displayCardNumber(array)
+        });
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <header class="center"> Sorting and Shuffling</header>
+        <article> </article>
+        <aside>
+            <button id = "shuffle" onclick="numberShuffle(array)">Shuffle</button>
+            <button id = "sort"  onclick="numberSort(array)"> Sort</button>
+        </aside>
+        <footer class="center">Shuffle and sort by Karuna Kumari</footer>
+    </div>
+</body>
+</html>
